@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: my font;
+}
+@font-face {
+    font-family: my font;
+    src: url("../fonts/Heebo-Regular.ttf");
+}
+@font-face {
+    font-family: my font;
+    src: url("../fonts/Heebo-Bold.ttf");
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul li a:hover{
+    color: #FF6464;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+}
+.navFather {
+    display: flex;
+    justify-content: end;
+    /* align-items: end; */
+    padding: 10px;
+}
+.contanir{
+    padding: 10px 22%;
+}
+.Work-detals button:hover{
+    color: rgb(228, 198, 157);
+    background-color: brown;
+}
+.p-butonFlex{
+    display: flex;
+    align-items: center;
+ }
+ button{
+    background-color: #FF6464;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    padding: 8px;
+    padding-left: 13px;
+    padding-right: 13px;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-right: 20px;
+}
+h1{
+    padding-bottom: 15px;
+    padding-right: 40%;
+    line-height: 1.5;
+}
+P{
+    line-height: 1.5;
+    padding-right: 10%;
+}
+h2{
+    margin-top: 25px;
+}
+h3{
+    padding-top:15px;
+    padding-bottom:15px;
+}
+.icon{
+    font-size: 30px;
+    padding-bottom: 15px;
+    color: #21243D;
+ }
+ .icon i{
+     padding:0 16px;
+     padding-top: 50px;
+ }
+ .footer {
+     display: flex;
+     justify-content: space-between;
+     flex-direction: column;
+     align-items: center;
+     padding-bottom: 40px;
+ }
+ .footer p{
+   padding-right: 5px;
+   font-size: 14px;
+ }
+ 
+ 
