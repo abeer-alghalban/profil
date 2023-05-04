@@ -13,6 +13,11 @@
     src: url("../fonts/Heebo-Bold.ttf");
     font-weight: bold;
 }
+@media (max-width:767) {
+    .contener{
+    width: 767px;  
+  }
+}
 a{
     text-decoration: none;
     color: black;
@@ -42,6 +47,7 @@ span{
     color: #8695A4;
 }
 .contener{
+    width: 100%;
     padding-left: 19%;
     padding-right: 30%;
 }

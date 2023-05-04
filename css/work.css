@@ -14,6 +14,21 @@
     src: url("../fonts/Heebo-Bold.ttf");
     font-weight: bold;
 }
+@media (max-width:767px){
+    .Work-detals{
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+        justify-content: space-between;
+        margin: 2px;
+        padding-left: 36px;
+        padding-top: 2px ;
+        padding-bottom: 10px;
+    }
+}
+.work-img{
+    width: 100%;
+}
 a{
     text-decoration: none;
     color: black;
@@ -54,10 +69,10 @@ h1{
 
 .Work-detals{
     display: flex; 
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin: 2px;
-    padding-left: 36px;
+    /* margin: 2px;
+    padding-left: 36px; */
     padding-top: 2px ;
     padding-bottom: 10px;
 }
@@ -74,9 +89,6 @@ h1{
  }
  .work-content{
     padding: 23px 3%;
- }
- .work-content p{
-    padding-right: 12%;
  }
  h3{
     margin-bottom: 15px;

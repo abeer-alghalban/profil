@@ -13,6 +13,54 @@
     src: url("../fonts/Heebo-Bold.ttf");
     font-weight: bold;
 }
+@media (max-width:767px) {
+    .div1flex{
+        display: flex;
+        flex-direction:column-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .contanir{
+        max-width: 767%;
+    }
+    .aboutYou{
+        text-align: center;
+    }
+    .aboutYou p{
+        text-align: center;
+    }
+    .Recent-posts{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .heading{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        width: 48%;
+        /* padding: 100px; */
+    }
+    .Work-detals{
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .aboutYou button{
+        padding: 20px 25px;
+        margin-bottom: 25px;
+        background-color: #FF6464;
+        border: none;
+        border-radius: 4px;
+    }
+    .work-img{
+        margin-left: 1%;
+    }
+}
 a{
     text-decoration: none;
     color: black;
@@ -34,7 +82,9 @@ ul li{
     padding: 10px;
 }
 .contanir{
+    max-width: 100%;
     padding: 10px 13%;
+    border: 3px solid red;
 }
 .div1flex{
     display: flex;
@@ -45,9 +95,6 @@ ul li{
 
 }
 .section1Img img{
-    /* width: 250px;
-    height: 250px;
-    max-width: 100%; */
     border-radius: 50%;
    box-shadow: 0 5px 0 5px #EDF7FA;
 }
@@ -65,6 +112,7 @@ ul li{
     margin-bottom: 25px;
     background-color: #FF6464;
     border: none;
+    border-radius: 4px;
 }
 .aboutYou button a{
     color: white;
@@ -76,6 +124,7 @@ ul li{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 .heading{
     display: flex;
